@@ -1,5 +1,5 @@
 /*
-  Tương tác cho trang Tin tức bất động sản – Loki_Home:
+  Tương tác cho trang Tin tức bất động sản – Loki Riverside:
   vẽ tin nổi bật / chuyên mục / tin mới từ data/news.js, menu điện thoại, header đổi kiểu khi cuộn,
   hiệu ứng hiện dần, kiểm tra và gửi form liên hệ (chưa có backend nên chỉ hiện thông báo).
 */

@@ -1,4 +1,4 @@
-# Nhật ký tiến độ – Loki_Home
+# Nhật ký tiến độ – Loki Riverside
 <!-- Ghi lại mỗi buổi đã làm gì, để buổi sau làm tiếp đúng chỗ. -->
 
 ## Buổi 1 – 15/11/2026: tạo cấu trúc thư mục

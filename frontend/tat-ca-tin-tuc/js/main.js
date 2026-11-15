@@ -1,5 +1,5 @@
 /*
-  Tương tác cho trang "Tất cả tin tức" – Loki_Home:
+  Tương tác cho trang "Tất cả tin tức" – Loki Riverside:
   gộp NEWS (tin VnExpress) + LOKI_NEWS (tin minh họa) thành 1 danh sách mới nhất lên đầu rồi vẽ ra lưới;
   kèm menu điện thoại, header đổ bóng khi cuộn, hiệu ứng hiện dần.
 */

@@ -1,7 +1,7 @@
 /*
   Dữ liệu tin tức bất động sản cho trang frontend/tin-tuc/.
-  Tiêu đề và link lấy từ VnExpress (chuyên mục Bất động sản, ngày 13–15/11/2026); phần tóm tắt do Loki_Home tự viết lại,
-  chuyên mục do Loki_Home tự phân loại. Ảnh là ảnh minh họa từ Unsplash (không phải ảnh của bài gốc, tránh vi phạm bản quyền).
+  Tiêu đề và link lấy từ VnExpress (chuyên mục Bất động sản, ngày 13–15/11/2026); phần tóm tắt do Loki Riverside tự viết lại,
+  chuyên mục do Loki Riverside tự phân loại. Ảnh là ảnh minh họa từ Unsplash (không phải ảnh của bài gốc, tránh vi phạm bản quyền).
 */
 
 // Danh sách chuyên mục: key dùng trong dữ liệu, label/icon/desc để vẽ thẻ chuyên mục.

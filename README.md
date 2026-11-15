@@ -1,4 +1,4 @@
-# Loki_Home – Mua bán, cho thuê nhà đất
+# Loki Riverside – Mua bán, cho thuê nhà đất
 
 Landing page bất động sản (bài thực hành Vibe Coding – Cybersoft): tìm kiếm, lọc, sắp xếp tin đăng bán/cho thuê. Dữ liệu là dữ liệu minh họa.
 
