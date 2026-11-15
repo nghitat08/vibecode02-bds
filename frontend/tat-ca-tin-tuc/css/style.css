@@ -1,0 +1,21 @@
+/*
+  Phần giao diện RIÊNG của trang "Tất cả tin tức".
+  Phần chung (màu, header, thẻ tin, footer) đã có ở ../tin-tuc/css/style.css, nạp trước tệp này.
+*/
+
+/* Khung tiêu đề trang: thay cho hero lớn vì trang này chỉ cần đi thẳng vào danh sách tin.
+   padding-top chừa chỗ cho header dính (fixed) để tiêu đề không bị che. */
+.page-head { padding: calc(var(--header-h) + 40px) 0 8px; text-align: center; background: var(--bg-alt); padding-bottom: 32px; }
+.page-head h1 { font-size: clamp(1.8rem, 6vw, 2.8rem); line-height: 1.2; }
+.page-desc { color: var(--muted); margin-top: 8px; }
+
+/* Tin minh họa không có bài gốc → thẻ là <article> chứ không phải link, nên bỏ hiệu ứng nổi lên khi rê chuột */
+article.news-card:hover { transform: none; box-shadow: var(--shadow); }
+article.news-card:hover h3 { color: inherit; }
+.news-more.is-muted { color: var(--muted); font-weight: 500; }
+
+/* Nhãn nguồn tin: xám nhạt để phân biệt với nhãn chuyên mục màu đỏ */
+.news-source { background: var(--bg-alt); color: var(--muted); font-weight: 600; padding: 2px 10px; border-radius: 999px; }
+
+/* Trang ngắn: giảm khoảng trống trên lưới tin */
+#tat-ca { padding-top: 40px; }

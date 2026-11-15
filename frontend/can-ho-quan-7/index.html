@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+  Trang giới thiệu dự án căn hộ Loki Riverside – Quận 7 (dự án HƯ CẤU, số liệu minh họa).
+  Gồm 6 khu vực: Header · Hero · Nổi bật · Tiện ích · Liên hệ · Footer.
+  Giao diện ở css/style.css, tương tác ở js/main.js.
+-->
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loki Riverside – Căn hộ ven sông Quận 7 | Loki_Home</title>
+  <meta name="description" content="Loki Riverside: căn hộ ven sông Quận 7, giá từ 3,2 tỷ. Đăng ký nhận bảng giá và lịch xem nhà mẫu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== 1. HEADER: logo, menu, nút CTA. Dính trên đầu trang để luôn bấm được CTA ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#tong-quan" class="logo">Loki<span>_Home</span></a>
+
+      <nav class="nav" id="nav" aria-label="Menu chính">
+        <a href="#tong-quan">Tổng quan</a>
+        <a href="#noi-bat">Điểm nổi bật</a>
+        <a href="#tien-ich">Tiện ích</a>
+        <a href="#lien-he">Liên hệ</a>
+        <a href="../tin-tuc/index.html">Tin tức</a>
+      </nav>
+
+      <a href="#lien-he" class="btn btn-primary header-cta">Nhận bảng giá</a>
+
+      <!-- Nút ☰ chỉ hiện trên điện thoại; aria-expanded báo cho trình đọc màn hình biết menu đang mở hay đóng -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 2. HERO: ấn tượng đầu tiên – tên dự án, giá, 2 nút hành động ===== -->
+    <section class="hero" id="tong-quan">
+      <div class="container hero-content">
+        <p class="eyebrow">Dự án mới · Quận 7, TP. Hồ Chí Minh</p>
+        <h1>Loki Riverside<br /><span>Sống xanh bên sông</span></h1>
+        <p class="hero-desc">Căn hộ 1–3 phòng ngủ, view sông Sài Gòn, cách Phú Mỹ Hưng 5 phút. Thanh toán linh hoạt, nhận nhà Q4/2027.</p>
+        <p class="hero-price">Giá chỉ từ <strong>3,2 tỷ</strong></p>
+        <div class="hero-actions">
+          <a href="#lien-he" class="btn btn-primary btn-lg">Nhận bảng giá</a>
+          <a href="tel:0900000000" class="btn btn-outline btn-lg">📞 Gọi ngay</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. NỔI BẬT: 4 con số giúp người xem nắm nhanh quy mô dự án ===== -->
+    <section class="section" id="noi-bat">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Điểm nổi bật</p>
+          <h2>Vì sao chọn Loki Riverside?</h2>
+        </div>
+        <div class="stats">
+          <article class="stat reveal">
+            <p class="stat-num">2,5 <small>ha</small></p>
+            <p class="stat-label">Tổng diện tích, 70% dành cho cây xanh và mặt nước</p>
+          </article>
+          <article class="stat reveal">
+            <p class="stat-num">1.200 <small>căn</small></p>
+            <p class="stat-label">Căn hộ 1–3 phòng ngủ, diện tích 52–110 m²</p>
+          </article>
+          <article class="stat reveal">
+            <p class="stat-num">5 <small>phút</small></p>
+            <p class="stat-label">Di chuyển tới khu đô thị Phú Mỹ Hưng</p>
+          </article>
+          <article class="stat reveal">
+            <p class="stat-num">Q4 <small>/2027</small></p>
+            <p class="stat-label">Bàn giao nhà hoàn thiện cơ bản</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. TIỆN ÍCH: 6 thẻ giá trị sống ===== -->
+    <section class="section section-alt" id="tien-ich">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Tiện ích nội khu</p>
+          <h2>Mọi thứ bạn cần, ngay dưới nhà</h2>
+        </div>
+        <div class="features">
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🏊</span>
+            <h3>Hồ bơi tràn bờ</h3>
+            <p>Hồ bơi 50 m hướng sông, có khu riêng cho trẻ em.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🌳</span>
+            <h3>Công viên ven sông</h3>
+            <p>1 km đường dạo bộ, chạy bộ và đạp xe dọc bờ sông.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🧸</span>
+            <h3>Trường mầm non</h3>
+            <p>Đưa đón con trong vài phút, không cần ra đường lớn.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">💪</span>
+            <h3>Gym &amp; Spa</h3>
+            <p>Phòng tập hiện đại và khu thư giãn dành cho cư dân.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🛍️</span>
+            <h3>Trung tâm thương mại</h3>
+            <p>Siêu thị, nhà hàng, cà phê ở khối đế tòa nhà.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">🛡️</span>
+            <h3>An ninh 24/7</h3>
+            <p>Thẻ từ ra vào, camera và bảo vệ trực liên tục.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. LIÊN HỆ: mục tiêu chính của trang – để lại số điện thoại ===== -->
+    <section class="section cta" id="lien-he">
+      <div class="container cta-grid">
+        <div class="cta-text reveal">
+          <p class="eyebrow">Đăng ký tư vấn</p>
+          <h2>Nhận bảng giá &amp; lịch xem nhà mẫu</h2>
+          <p>Để lại thông tin, chuyên viên Loki_Home sẽ gọi lại trong 15 phút (giờ hành chính).</p>
+          <div class="quick-contact">
+            <a href="tel:0900000000" class="btn btn-light">📞 0900 000 000</a>
+            <a href="https://zalo.me/0900000000" class="btn btn-light" target="_blank" rel="noopener">💬 Chat Zalo</a>
+          </div>
+        </div>
+
+        <!-- novalidate: tắt thông báo lỗi mặc định của trình duyệt để JS hiện lỗi tiếng Việt ngay dưới ô -->
+        <form class="lead-form reveal" id="leadForm" novalidate>
+          <div class="field">
+            <label for="fullName">Họ và tên *</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Nguyễn Văn A" autocomplete="name" />
+            <p class="error" id="fullNameError" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="phone">Số điện thoại *</label>
+            <input type="tel" id="phone" name="phone" placeholder="0901 234 567" autocomplete="tel" inputmode="numeric" />
+            <p class="error" id="phoneError" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="need">Nhu cầu</label>
+            <select id="need" name="need">
+              <option value="">Chưa rõ, cần tư vấn</option>
+              <option value="1pn">Căn 1 phòng ngủ</option>
+              <option value="2pn">Căn 2 phòng ngủ</option>
+              <option value="3pn">Căn 3 phòng ngủ</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Gửi đăng ký</button>
+          <p class="form-note">Thông tin của bạn chỉ dùng để liên hệ tư vấn.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 6. FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#tong-quan" class="logo logo-light">Loki<span>_Home</span></a>
+        <p>Kênh mua bán, cho thuê nhà đất toàn quốc.</p>
+      </div>
+      <div>
+        <h3>Liên hệ</h3>
+        <p>📍 Nguyễn Văn Linh, Quận 7, TP. HCM</p>
+        <p>📞 0900 000 000</p>
+        <p>✉️ lienhe@lokihome.example</p>
+      </div>
+      <div>
+        <h3>Khám phá</h3>
+        <p><a href="#noi-bat">Điểm nổi bật</a></p>
+        <p><a href="#tien-ich">Tiện ích</a></p>
+        <p><a href="#lien-he">Đăng ký tư vấn</a></p>
+      </div>
+    </div>
+    <p class="container footer-note">© 2026 Loki_Home. Dự án và số liệu trên trang là dữ liệu minh họa cho bài thực hành.</p>
+  </footer>
+
+  <!-- Thông báo nhỏ (toast) khi gửi form thành công -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

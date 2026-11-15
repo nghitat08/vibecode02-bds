@@ -1,0 +1,13 @@
+# Tệp này liệt kê những thứ Git KHÔNG được lưu lên kho code.
+# Mục đích: tránh lộ mật khẩu/API key và tránh lưu tệp rác của máy.
+
+# Biến môi trường (mật khẩu, API key)
+.env
+
+# Thư viện cài về (nếu sau này dùng npm)
+node_modules/
+
+# Tệp rác của hệ điều hành và trình soạn thảo
+.DS_Store
+Thumbs.db
+.vscode/
